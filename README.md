@@ -1,4 +1,5 @@
 # Brand Analysis Using Twitter: Adidas vs Lululemon
+
 <div align="center">
   <img src="images/portrait.png" alt="Portrait Social Network Analysis">
 </div>
@@ -21,7 +22,9 @@ The initial step involved building directed graphs from user mentions in tweets.
 
 ### Influencer Network: Adidas
 
-![Adidas Network Graph](images/influencer_network.png)
+<div align="center">
+  <img src="images/influencer_network.png" alt="Adidas Network Graph">
+</div>
 
 The graph above illustrates Adidas-related interactions. Many of the most central nodes are mid-tier influencers, with between 1,000 and 10,000 followers. These users were found to be well-connected and organically engaged with their audiences.
 
@@ -35,19 +38,25 @@ Following text preprocessing, which included cleaning, tokenization, and lemmati
 
 To ensure the coherence and interpretability of the topics, several models with different topic numbers were evaluated. The coherence score (c_v) was used to select the optimal configuration for each brand.
 
-![LDA Coherence Plot](images/topic_selection.png)
+<div align="center">
+  <img src="images/topic_selection.png" alt="LDA Coherence Plot">
+</div>
 
 The results indicated that 50 topics were optimal for Adidas, while 60 topics were better suited for the Lululemon dataset.
 
 ### Key Topics for Adidas
 
-![Adidas Topics](images/adidas_key_topics.png)
+<div align="center">
+  <img src="images/adidas_key_topics.png" alt="Adidas Topics">
+</div>
 
 The most prominent topics related to Adidas included product launches, athletic performance, nostalgic sports references, and customer service interactions.
 
 ### Key Topics for Lululemon
 
-![Lululemon Topics](images/lululemon_key_topics.png)
+<div align="center">
+  <img src="images/lululemon_key_topics.png" alt="Lululemon Topics">
+</div>
 
 For Lululemon, dominant topics focused on wellness, sustainability, community engagement, and in-store experiences. This reflects a different audience with lifestyle-oriented values.
 
@@ -59,7 +68,9 @@ The sentiment of each tweet was classified using the VADER algorithm, which is d
 
 ### Overall Sentiment Distribution
 
-![Sentiment Analysis](images/sentiment_by_brand.png)
+<div align="center">
+  <img src="images/sentiment_by_brand.png" alt="Sentiment Analysis">
+</div>
 
 The results showed that both brands were viewed positively in general. Adidas tweets, however, demonstrated more variation in sentiment, particularly around customer service topics.
 ## Sentiment Analysis by Topic
@@ -68,13 +79,17 @@ In order to gain deeper insight into how users emotionally respond to specific t
 
 ### Topic-Level Sentiment: Adidas
 
-![Adidas Topic Sentiment](images/sentiment_analysis_topics_adidas.png)
+<div align="center">
+  <img src="images/sentiment_analysis_topics_adidas.png" alt="Adidas Topic Sentiment">
+</div>
 
 Among the most discussed Adidas topics, "Thank You Messages and Delivery Issues" revealed the most sentiment polarity, with many tweets showing dissatisfaction about delivery delays. On the other hand, themes like "Style Praise and Product Satisfaction" were associated with highly positive sentiment, especially toward specific products.
 
 ### Topic-Level Sentiment: Lululemon
 
-![Lululemon Topic Sentiment](images/sentiment_analysis_topics_lululemon.png)
+<div align="center">
+  <img src="images/sentiment_analysis_topics_lululemon.png" alt="Lululemon Topic Sentiment">
+</div>
 
 For Lululemon, topics such as "Customer Appreciation" and "Healthcare Discounts" were strongly positive, reflecting gratitude and emotional engagement. However, themes involving logistics and shipping delays presented moderate levels of negative sentiment, though less polarized than in the Adidas dataset.
 
