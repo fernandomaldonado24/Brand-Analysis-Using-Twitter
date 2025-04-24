@@ -1,5 +1,6 @@
 # Brand Analysis Using Twitter: Adidas vs Lululemon
 ![Portrait Social Network Analysis](images/portrait.png)
+
 This project investigates how Twitter users interact with two global brands, Adidas and Lululemon. The analysis applies social network techniques, topic modeling, and sentiment analysis to gain insights into user behavior, brand perception, and the structure of online conversations.
 
 ---
