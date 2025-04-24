@@ -59,6 +59,25 @@ The sentiment of each tweet was classified using the VADER algorithm, which is d
 ![Sentiment Analysis](images/sentiment_by_brand.png)
 
 The results showed that both brands were viewed positively in general. Adidas tweets, however, demonstrated more variation in sentiment, particularly around customer service topics.
+## Sentiment Analysis by Topic
+
+In order to gain deeper insight into how users emotionally respond to specific topics, a separate sentiment analysis was performed for the dominant LDA topics. This topic-level sentiment allows for identifying not only which themes are popular, but also how positively or negatively they are perceived.
+
+### Topic-Level Sentiment: Adidas
+
+![Adidas Topic Sentiment](images/sentiment_analysis_topics_adidas.png)
+
+Among the most discussed Adidas topics, "Thank You Messages and Delivery Issues" revealed the most sentiment polarity, with many tweets showing dissatisfaction about delivery delays. On the other hand, themes like "Style Praise and Product Satisfaction" were associated with highly positive sentiment, especially toward specific products.
+
+### Topic-Level Sentiment: Lululemon
+
+![Lululemon Topic Sentiment](sentiment_analysis_topics_lululemon.png)
+
+For Lululemon, topics such as "Customer Appreciation" and "Healthcare Discounts" were strongly positive, reflecting gratitude and emotional engagement. However, themes involving logistics and shipping delays presented moderate levels of negative sentiment, though less polarized than in the Adidas dataset.
+
+---
+
+This granular analysis helps identify which aspects of the brand are generating positive emotional responses and which areas might be causing frustration. It is recommended that brands monitor not only overall sentiment but also specific topic sentiment to adjust communication strategies more effectively.
 
 ---
 
