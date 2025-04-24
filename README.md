@@ -24,9 +24,19 @@ This graph shows influential users in Adidas-related conversations. Mid-tier inf
 
 ---
 
-## Topic Modeling (LDA)
+## Topic Modeling with LDA
 
-Topic modeling was conducted with **Latent Dirichlet Allocation** after cleaning and lemmatizing the tweets. The goal was to uncover recurring themes.
+Tweets were cleaned, lemmatized, and tokenized using a tailored NLP pipeline. **Latent Dirichlet Allocation (LDA)** was used to extract recurring discussion themes.
+
+### Optimal Topic Selection
+
+To determine the ideal number of topics for each brand, multiple LDA models were tested with varying topic counts. The model with the **highest coherence score (c_v)** was selected.
+
+### 📈 Coherence Score vs. Number of Topics
+
+![LDA Coherence Plot](images/topic_selection.png)
+
+*The coherence score helped select 50 topics for Adidas and 60 for Lululemon, ensuring topic interpretability and diversity.*
 
 ### Adidas Key Topics
 
