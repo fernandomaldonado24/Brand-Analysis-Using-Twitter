@@ -56,7 +56,7 @@ The sentiment of each tweet was classified using the VADER algorithm, which is d
 
 ### Overall Sentiment Distribution
 
-![Sentiment Analysis](images/sentiment_distribution.png)
+![Sentiment Analysis](images/sentiment_by_brand.png)
 
 The results showed that both brands were viewed positively in general. Adidas tweets, however, demonstrated more variation in sentiment, particularly around customer service topics.
 
