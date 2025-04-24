@@ -18,7 +18,7 @@ User mentions were used to create **directed graphs**, representing the structur
 
 ### Influencer Network Graph (Adidas)
 
-![Adidas Network Graph](images/Influencer Network.png)
+![Adidas Network Graph](images/influencer_network.png)
 
 *This graph shows influential users in Adidas-related conversations. Mid-tier influencers (1k–10k followers) dominate key positions.*
 
