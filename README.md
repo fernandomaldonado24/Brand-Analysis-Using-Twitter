@@ -71,7 +71,7 @@ Among the most discussed Adidas topics, "Thank You Messages and Delivery Issues"
 
 ### Topic-Level Sentiment: Lululemon
 
-![Lululemon Topic Sentiment](sentiment_analysis_topics_lululemon.png)
+![Lululemon Topic Sentiment](images/sentiment_analysis_topics_lululemon.png)
 
 For Lululemon, topics such as "Customer Appreciation" and "Healthcare Discounts" were strongly positive, reflecting gratitude and emotional engagement. However, themes involving logistics and shipping delays presented moderate levels of negative sentiment, though less polarized than in the Adidas dataset.
 
