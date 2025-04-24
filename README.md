@@ -1,4 +1,4 @@
-# Brand Analysis Using Twitter: Adidas vs Lululemon
+<h1 align="center">Brand Analysis Using Twitter: Adidas vs Lululemon</h1>
 
 <div align="center">
   <img src="images/portrait.png" alt="Portrait Social Network Analysis">
