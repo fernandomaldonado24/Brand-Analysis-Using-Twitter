@@ -20,7 +20,7 @@ User mentions were used to create **directed graphs**, representing the structur
 
 ![Adidas Network Graph](images/influencer_network.png)
 
-*This graph shows influential users in Adidas-related conversations. Mid-tier influencers (1k–10k followers) dominate key positions.*
+This graph shows influential users in Adidas-related conversations. Mid-tier influencers (1k–10k followers) dominate key positions.
 
 ---
 
@@ -30,13 +30,13 @@ Topic modeling was conducted with **Latent Dirichlet Allocation** after cleaning
 
 ### Adidas Key Topics
 
-![Adidas Topics](images/adidas_topics.png)
+![Adidas Topics](images/adidas_key_topics.png)
 
 *Adidas tweets focused on athletic performance, product launches, and nostalgic sports moments.*
 
 ### Lululemon Key Topics
 
-![Lululemon Topics](images/lululemon_topics.png)
+![Lululemon Topics](images/lululemon_key_topics.png)
 
 *Lululemon tweets reflected themes like wellness, community, and eco-conscious values.*
 
