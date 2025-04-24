@@ -32,11 +32,50 @@ Tweets were cleaned, lemmatized, and tokenized using a tailored NLP pipeline. **
 
 To determine the ideal number of topics for each brand, multiple LDA models were tested with varying topic counts. The model with the **highest coherence score (c_v)** was selected.
 
-### 📈 Coherence Score vs. Number of Topics
+### Coherence Score vs. Number of Topics
 
 ![LDA Coherence Plot](images/topic_selection.png)
 
 *The coherence score helped select 50 topics for Adidas and 60 for Lululemon, ensuring topic interpretability and diversity.*
+Adidas: Top 5 Topics
+
+### Adidas: Top 5 Topics
+
+1. **Player Development and Classic Moments**  
+   Nostalgic sports content, youth development, emotional memories.
+
+2. **Adidas Brand Identity and Promotions**  
+   Mentions of giveaways, brand campaigns, and positioning.
+
+3. **Shoe Launches and Consumer Interest**  
+   Buzz around new products, limited drops, and hype-driven tweets.
+
+4. **Thank You Messages and Delivery Issues**  
+   Mix of gratitude and frustration — often regarding delivery delays.
+
+5. **Style Praise and Product Satisfaction**  
+   Positive sentiment around design, comfort, and user experience.
+
+---
+
+### Lululemon: Top 5 Topics
+
+1. **Sustainability and Brand Responsibility**  
+   Critiques of coal-powered production and demands for eco-friendly practices.
+
+2. **In-Store Experience and Product Exchanges**  
+   Tweets about leggings, fitting, returns, and store visits.
+
+3. **Customer Appreciation and Positive Shopping**  
+   Users expressing loyalty and enjoyment in their shopping experience.
+
+4. **Shipping Delays and Customer Service Issues**  
+   Complaints about order problems and support inefficiency.
+
+5. **Healthcare and Hero Discounts**  
+   Positive responses to discounts for nurses and military personnel.
+
+---
 
 ### Adidas Key Topics
 
@@ -58,7 +97,7 @@ Using the VADER model, tweets were categorized by sentiment polarity (positive, 
 
 ### Sentiment Distribution by Brand
 
-![Sentiment Analysis](images/sentiment_distribution.png)
+![Sentiment Analysis](images/sentiment_by_brand.png)
 
 *Both brands show predominantly positive sentiment, with Adidas tweets showing more emotional variation.*
 
